@@ -1,0 +1,24 @@
+\# ignore files
+# INRAe\Olivier Vitrac - rev. 2020-05-26
+# removed folders
+/admin/**
+/backup/**
+/certificate/**
+/download*/
+/external/**
+/sandbox/**/external/
+/history/
+
+# no bakups
+*.zip
+*.bak
+*.m~
+*.asv
+*.ppt
+*.pptx
+
+# remove symbolic link
+/www
+
+# sources
+**/.nogo
